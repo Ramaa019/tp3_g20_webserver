@@ -1,0 +1,36 @@
+{
+  "name": "tp3-webserver",
+  "version": "1.0.0",
+  "description": "Tp3 -  Grupo 20 - webServer. Servidor con los datos (json) que va a consumir el tp1 \"Pulse\" para mostrarlos en el frontend",
+  "homepage": "https://github.com/Ramaa019/tp3_g20_webserver#readme",
+  "bugs": {
+    "url": "https://github.com/Ramaa019/tp3_g20_webserver/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramaa019/tp3_g20_webserver.git"
+  },
+  "license": "MIT",
+  "author": "Severino Tomás, Naim Neman, David Cardozo, Ramón Pastré, Alejo Simos",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "lint": "npx standard",
+    "fix": "npx standard --fix",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^10.3.0",
+    "eslint-config-prettier": "^10.1.8",
+    "husky": "^9.1.7",
+    "nodemon": "^3.1.14",
+    "standard": "^17.1.2"
+  }
+}
