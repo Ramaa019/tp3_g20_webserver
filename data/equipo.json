@@ -1,0 +1,25 @@
+{
+    "equipo": [
+        {
+            "id": 1,
+            "nombre": "Sofía Martínez",
+            "rol": "Jefa de Instructores",
+            "descripcion": "Jefa de Instructores con más de 10 años de experiencia en entrenamiento personal y fitness.",
+            "img": "/static/img/miembro1.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Lucas Gómez",
+            "rol": "Jefe de Ventas",
+            "descripcion": "Jefe de Ventas con amplia experiencia en el sector y un enfoque en la satisfacción del cliente.",
+            "img": "/static/img/miembro2.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Valentina Rossi",
+            "rol": "Nutricionista Deportiva",
+            "descripcion": "Nutricionista Deportiva especializada en planes de alimentación personalizados para deportistas.",
+            "img": "/static/img/miembro3.jpg"
+        }
+    ]
+}
