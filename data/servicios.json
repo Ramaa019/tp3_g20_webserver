@@ -1,0 +1,22 @@
+{
+    "servicios": [
+        {
+            "id": 1,
+            "nombre": "Musculación",
+            "descripcion": "Equipamiento de última generación para tu entrenamiento de fuerza.",
+            "icon": "/static/favicon/musculacion.svg"
+        },
+        {
+            "id": 2,
+            "nombre": "Calistenia",
+            "descripcion": "Entrenamiento funcional que utiliza el peso corporal como resistencia.",
+            "icon": "/static/favicon/calistenia.svg"
+        },
+        {
+            "id": 3,
+            "nombre": "Yoga",
+            "descripcion": "Clases de yoga para mejorar tu flexibilidad y bienestar.",
+            "icon": "/static/favicon/yoga.svg"
+        }
+    ]
+}

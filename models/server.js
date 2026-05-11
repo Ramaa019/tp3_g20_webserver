@@ -1,5 +1,6 @@
 const express = require('express')
 const cors = require('cors')
+const path = require('path')
 
 // Cargar variables de entorno desde el archivo .env
 require('dotenv').config()
@@ -13,15 +14,16 @@ class Server {
   }
 
   middleware () {
+    // Mapeo de la carpeta pública con el alias /static
+    this.app.use('/static', express.static(path.join(__dirname, '../public')))
+
     this.app.use(cors())
   }
 
   rutas () {
     // Rutas
     this.app.use('/servicios', require('../routes/serviciosRoutes'))
-    this.app.use('/servicios/:id', require('../routes/serviciosRoutes'))
     this.app.use('/equipo', require('../routes/equipoRoutes'))
-    this.app.use('/perfil/:id', require('../routes/equipoRoutes'))
 
     // manejo de errores
     this.app.use((req, res, next) => {

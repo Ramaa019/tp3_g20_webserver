@@ -1,9 +1,7 @@
 const fs = require('fs').promises
 
-
 const getServicios = async (req, res) => {
   try {
-
     // Leer el archivo JSON que contiene los servicios
     const data = await fs.readFile('./data/servicios.json', 'utf8')
     const servicios = JSON.parse(data)
@@ -20,7 +18,6 @@ const getServicios = async (req, res) => {
 
 const getServiciosById = async (req, res) => {
   try {
-
     // Leer el archivo JSON que contiene los servicios
     const data = await fs.readFile('./data/serviciosDetalle.json', 'utf8')
     const servicios = JSON.parse(data)
