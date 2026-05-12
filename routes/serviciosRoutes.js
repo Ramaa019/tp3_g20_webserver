@@ -10,4 +10,5 @@ router.get('/', getServicios)
 // Ruta para obtener un servicio por ID
 router.get('/:id', getServiciosById)
 
-module.exports = router
+
+module.exports = router;

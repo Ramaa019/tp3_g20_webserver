@@ -14,10 +14,9 @@ class Server {
   }
 
   middleware () {
+    this.app.use(cors())
     // Mapeo de la carpeta pública con el alias /static
     this.app.use('/static', express.static(path.join(__dirname, '../public')))
-
-    this.app.use(cors())
   }
 
   rutas () {
