@@ -20,7 +20,7 @@ const getServiciosById = async (req, res) => {
   try {
     // Leer el archivo JSON que contiene los servicios
     const data = await fs.readFile('./data/servicios.json', 'utf8')
-    const servicios = JSON.parse(data)
+    const { servicios } = JSON.parse(data)
 
     // Obtener el ID solicitado y buscar el servicio correspondiente
     const { id } = req.params
