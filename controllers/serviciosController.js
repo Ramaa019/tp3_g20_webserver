@@ -19,7 +19,7 @@ const getServicios = async (req, res) => {
 const getServiciosById = async (req, res) => {
   try {
     // Leer el archivo JSON que contiene los servicios
-    const data = await fs.readFile('./data/serviciosDetalle.json', 'utf8')
+    const data = await fs.readFile('./data/servicios.json', 'utf8')
     const servicios = JSON.parse(data)
 
     // Obtener el ID solicitado y buscar el servicio correspondiente
@@ -33,8 +33,8 @@ const getServiciosById = async (req, res) => {
     return res.status(200).json(servicioId)
   } catch (error) {
     console.log(error)
-    return res.status(500).JSON({
-      error: 'No se pudo obtener el datalle del servicio del id n° {id}'
+    return res.status(500).json({
+      error: `No se pudo obtener el detalle del servicio del id n° ${id}`
     })
   }
 }
