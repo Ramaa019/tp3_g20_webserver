@@ -3,7 +3,7 @@ const fs = require('fs').promises
 const getEquipo = async (req, res) => {
   try {
     const data = await fs.readFile('./data/equipo.json', 'utf8')
-    const equipo = JSON.parse(data)
+    const { equipo } = JSON.parse(data)
 
     return res.status(200).json(equipo)
   } catch (error) {
