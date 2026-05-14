@@ -2,8 +2,8 @@
     "servicios": [
         {
             "id": 1,
-            "nombre": "Musculación",
-            "descripcion": "Equipamiento de última generación para tu entrenamiento de fuerza.",
+            "nombre": "Musculacion",
+            "descripcion": "Equipamiento de ultima generacion para tu entrenamiento de fuerza.",
             "icon": "/static/favicon/musculacion.svg"
         },
         {
@@ -17,6 +17,72 @@
             "nombre": "Yoga",
             "descripcion": "Clases de yoga para mejorar tu flexibilidad y bienestar.",
             "icon": "/static/favicon/yoga.svg"
+        },
+        {
+            "id": 4,
+            "nombre": "Powerlifting",
+            "descripcion": "Entrenamiento de fuerza maxima enfocado en sentadilla, press de banca y peso muerto.",
+            "icon": "/static/favicon/powerlifting.svg"
+        },
+        {
+            "id": 5,
+            "nombre": "CrossFit",
+            "descripcion": "Acondicionamiento fisico general mediante movimientos funcionales a alta intensidad.",
+            "icon": "/static/favicon/crossfit.svg"
+        },
+        {
+            "id": 6,
+            "nombre": "Spinning",
+            "descripcion": "Entrenamiento cardiovascular de alta intensidad en bicicletas estaticas.",
+            "icon": "/static/favicon/spinning.svg"
+        },
+        {
+            "id": 7,
+            "nombre": "Pilates",
+            "descripcion": "Sistema de entrenamiento fisico y mental centrado en la estabilizacion del core.",
+            "icon": "/static/favicon/pilates.svg"
+        },
+        {
+            "id": 8,
+            "nombre": "Boxeo Recreativo",
+            "descripcion": "Tecnicas de combate y acondicionamiento aerobico sin contacto pleno.",
+            "icon": "/static/favicon/boxeo.svg"
+        },
+        {
+            "id": 9,
+            "nombre": "Zumba",
+            "descripcion": "Clases aerobicas coreografiadas al ritmo de musica latina e internacional.",
+            "icon": "/static/favicon/zumba.svg"
+        },
+        {
+            "id": 10,
+            "nombre": "Entrenamiento Funcional",
+            "descripcion": "Circuitos de ejercicios disenados para imitar y mejorar los movimientos cotidianos.",
+            "icon": "/static/favicon/funcional.svg"
+        },
+        {
+            "id": 11,
+            "nombre": "Stretching",
+            "descripcion": "Sesiones dedicadas exclusivamente al estiramiento muscular y prevencion de lesiones.",
+            "icon": "/static/favicon/stretching.svg"
+        },
+        {
+            "id": 12,
+            "nombre": "Halterofilia",
+            "descripcion": "Instruccion tecnica en levantamientos olimpicos: Snatch y Clean & Jerk.",
+            "icon": "/static/favicon/halterofilia.svg"
+        },
+        {
+            "id": 13,
+            "nombre": "HIIT",
+            "descripcion": "Intervalos de alta intensidad para maximizar la quema calorica en tiempos cortos.",
+            "icon": "/static/favicon/hiit.svg"
+        },
+        {
+            "id": 14,
+            "nombre": "Rehabilitacion Deportiva",
+            "descripcion": "Seguimiento y rutinas adaptadas para la recuperacion post-lesion con profesionales.",
+            "icon": "/static/favicon/rehabilitacion.svg"
         }
     ]
 }
