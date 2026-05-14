@@ -1,0 +1,28 @@
+{
+  "perfiles": [
+    {
+      "id": 1,
+      "nombre": "Usuario Alpha",
+      "mail": "alpha@sistema.local",
+      "fecha_registro": "2023-08-12",
+      "foto": "/static/img/dummy_alpha.jpg",
+      "ultimos_pedidos": [
+        { "id_pedido": 101, "servicio": "Pase Musculación", "fecha": "2026-05-01" },
+        { "id_pedido": 102, "servicio": "Clase Yoga", "fecha": "2026-05-08" },
+        { "id_pedido": 103, "servicio": "Suplemento", "fecha": "2026-05-12" }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Usuario Beta",
+      "mail": "beta@sistema.local",
+      "fecha_registro": "2025-02-20",
+      "foto": "/static/img/dummy_beta.jpg",
+      "ultimos_pedidos": [
+        { "id_pedido": 201, "servicio": "CrossFit", "fecha": "2026-04-15" },
+        { "id_pedido": 202, "servicio": "Spinning", "fecha": "2026-04-20" },
+        { "id_pedido": 203, "servicio": "Pase Libre", "fecha": "2026-05-02" }
+      ]
+    }
+  ]
+}
