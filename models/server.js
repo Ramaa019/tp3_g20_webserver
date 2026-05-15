@@ -16,6 +16,7 @@ class Server {
   middleware () {
     this.app.use(cors())
     // Mapeo de la carpeta pública con el alias /static
+    this.app.use(express.json())
     this.app.use('/static', express.static(path.join(__dirname, '../public')))
   }
 
@@ -23,13 +24,13 @@ class Server {
     // Rutas
     this.app.use('/servicios', require('../routes/serviciosRoutes'))
     this.app.use('/equipo', require('../routes/equipoRoutes'))
+    this.app.use('/perfil', require('../routes/perfilRoutes'))
 
     // manejo de errores
     this.app.use((req, res, next) => {
       return res.status(400).json({ msg: 'Error.' })
     })
     this.app.use((err, req, res, next) => {
-      console.error(err.stack)
       return res.status(404).json({ msg: 'Error. Pagina no encontrada' })
     })
     this.app.use((err, req, res, next) => {

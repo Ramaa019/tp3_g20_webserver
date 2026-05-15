@@ -11,30 +11,26 @@ Alejo Simos
 Trabajo Práctico N°3 - Prog III - 2026. Servidor Web (backend) con los datos para consumir desde el repositorio tp3_g20_frontendTP1_PULSE.
 
 ## Estructura de archivos y carpetas
+```
 tp3_g20_webserver/
-│── app.js
-│── package.json
-│── README.md
-│
+├── app.js
+├── package.json
+├── README.md
+├── server.js
 ├── controllers/
 │   ├── equipoController.js
 │   └── serviciosController.js
-│
 ├── routes/
 │   ├── equipoRoutes.js
 │   └── serviciosRoutes.js
-│
 ├── models/
-│   └── server.js
-│
 ├── data/
 │   ├── equipo.json
 │   └── servicios.json
-│
 └── public/
     ├── favicon/
     └── img/
-
+```
 
 ## Descripción de carpetas
 - controllers/: contiene la lógica que procesa las solicitudes y devuelve respuestas.
